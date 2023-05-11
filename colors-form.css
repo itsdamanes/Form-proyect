@@ -1,3 +1,11 @@
 .btn-primary-cancel {
     background-color: gray;
 }
+
+.form-control-1 {
+    width: 200px;
+}
+
+.mb-3 {
+    display: initial;
+}
