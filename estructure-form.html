@@ -29,17 +29,17 @@
 
                     <div class="mb-3 mt-3">
                       <label for="email" class="form-label">Card #</label>
-                      <input type="email" class="form-control" id="email" placeholder="XXXXXXXXXXXXX" name="email">
+                      <input style="width: 500px; margin-right: 20px;" type="email" class="form-control" id="email" placeholder="XXXXXXXXXXXXX" name="email">
                     </div>
 
                     <div class="mb-3 mt-3">
                       <label for="email" class="form-label">CVC #</label>
-                      <input type="email" class="form-control" id="email" placeholder="00000" name="email">
+                      <input style="width: 250px; margin-right: 30px;" type="email" class="form-control" id="email" placeholder="00000" name="email">
                     </div>
 
                     <div class="mb-3 mt-3">
                       <label for="email" class="form-label">Amount</label>
-                      <input type="email" class="form-control" id="email" placeholder="Amount" name="email">
+                      <input style="width: 265px;" type="email" class="form-control" id="email" placeholder="Amount" name="email">
                     </div>
 
                   </div>
@@ -48,12 +48,12 @@
 
                       <div class="mb-3 mt-3">
                         <label for="email" class="form-label">First name:</label>
-                        <input type="email" class="form-control" id="email" name="email">
+                        <input style="width: 500px; margin-right: 20px" type="email" class="form-control" id="email" name="email">
                       </div>
                       
                       <div class="mb-3 mt-3">
                         <label for="email" class="form-label">Last name:</label>
-                        <input type="email" class="form-control" id="email" name="email">
+                        <input style="width: 545px;" type="email" class="form-control" id="email" name="email">
                       </div>
 
                     </div>
@@ -62,31 +62,66 @@
 
                         <div class="mb-3 mt-3">
                           <label for="email" class="form-label">City:</label>
-                          <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                          <input style="width: 500px; margin-right: 20px;" type="email" class="form-control" id="email" placeholder="Enter email" name="email">
                         </div>
 
-                        <!-- AQUI VA LA INTERACCION QUE FALTA, DEBES BUSCARLA-->
+                        <div class="my-3">
+                          <label for="">State</label>
+                          <select style="width: 250px; margin-right: 30px;" name="" id="" class="form-control">
+                            <option value="">Inicial</option>
+                            <option value="">Final</option>
+
+                          </select>
+                        </div>
 
                         <div class="mb-3 mt-3">
                           <label for="email" class="form-label">Postal code:</label>
-                          <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                          <input style="width: 265px;" type="email" class="form-control" id="email" placeholder="Enter email" name="email">
                         </div>
                       </div>
               
                         <div class="div-5">
 
                           <!--BUSCAR INTERACCIÓN QUE FALTA-->
+                          <div style="margin-right: 330px;">
+                            <div style="background-color: grey;" class="pay-methods">
+                              <div class="grid">
+                                <input type="radio">
+                                <img class="credit-tarjet" src="img-icons/visa.png" alt="Visa">
+                              </div>
+
+                              <div class="grid">
+                                <input type="radio">
+                                <img class="credit-tarjet" src="img-icons/tarjeta-de-credito.png" alt="MasterCard">
+                              </div>
+
+                              <div class="grid">
+                                <input type="radio">
+                                <img class="credit-tarjet" src="img-icons/american-express.png" alt="BancoOfChile">
+                              </div>
+
+                              
+                              <div class="grid">
+                                <input type="radio">
+                                <img class="credit-tarjet" src="img-icons/devolucion-de-dinero.png" alt="AmericanExpress">
+                              </div>
+                              
+  
+                            </div>
+                          </div>
+                          
 
                           <div>
                             <label for="comment">Message:</label>
-                            <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+                            <textarea style="width: 545px;" class="form-control" rows="5" id="comment" name="text"></textarea>
                           </div>
+
                         </div>
             </div>
 
             <div class="card-footer">
               
-              <div>
+              <div style="margin-left: 900px;">
                 <button type="button" class="btn btn-secondary">Cancel</button>
                 <button type="button" class="btn btn-primary">Send</button>
               </div>

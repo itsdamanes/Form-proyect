@@ -25,3 +25,11 @@
 .div-5 {
     display: flex;
 }
+
+.pay-methods {
+    display: flex;
+}
+
+.credit-tarjet {
+    height: 30px;
+}
